@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="changemessage" extends="struts-default" namespace="/">
+		<action name="showmessage" class="project.action.Showmessage">
+			<result name="success">/message.jsp</result>
+		</action>
+		<action name="changemessage" class="project.action.ChangeMessage">
+			<result name="success">/message.jsp</result>
+		</action>
+		<action name="changepassword" class="project.action.ChangePassowrd">
+			<result name="success">/message.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+	</package>
+</struts>

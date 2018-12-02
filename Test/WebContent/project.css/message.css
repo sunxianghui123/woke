@@ -1,0 +1,4 @@
+body{background-image: url("../image/bgimage.jpg");background-repeat: no-repeat}
+#table{width: 600px;height: 500px;border: 1px solid;margin: 5% auto;}
+#tr{margin: 5% 5% auto;}
+#btn{margin: 30% 35% auto;}
